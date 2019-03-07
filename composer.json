@@ -1,0 +1,17 @@
+{
+    "name": "eshop/library",
+    "description": "classes métiers",
+    "type": "library",
+    "license": "BSD",
+    "authors":[{
+            "name":"Anthony Educa",
+            "email":"anthony.educa@gmail.com"
+    }],
+"autoload":{
+    "psr-4":{
+      "Eshop\\":"src/" 
+}
+},
+    "minimum-stability": "dev",
+    "require": {}
+}
